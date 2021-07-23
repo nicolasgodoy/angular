@@ -5,6 +5,10 @@ body{
   
 }
 
+body .about{
+ background-image: url(assets/img/fondo.jpg);
+  border-radius: 10px;
+}
 
 
 
@@ -17,6 +21,24 @@ body{
   width: 400px;
   border-radius: 10px;
   margin: 10px;
+}
+
+.titulo{
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+  
+}
+
+.parrafo{
+  background-color: rgba(255, 255, 255, 0.562);
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 12px;
+  margin:10px;
+  padding:20px;
+  text-shadow: 5px 1px 5px #000;
+
 }
 
 
