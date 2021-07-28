@@ -1,7 +1,7 @@
-<h1 class="animated fadeIn"> {{heroe.nombre}} (<small>{{heroe.aparicion | date: 'y'}}</small>)</h1>
+<h1 class="animated fadeIn "> {{heroe.nombre}} (<small>{{heroe.aparicion | date: 'y'}}</small>)</h1>
+                                                                    <!-- PIPES -->
 
-
-<div class="row animated fadeIn fast">
+<div class="row animated fadeIn fast bg-dark">
 
     <div class="col-md-4">
 
@@ -11,10 +11,10 @@
 
     </div>
 
-    <div class="col-md-8">
-        <h3>{{ heroe.nombre }}</h3>
+    <div class="col-md-8 text-center">
+        <h3 class="text-white">{{ heroe.nombre }}</h3>
         <hr>
-        <p>
+        <p class="text-white">
 
             {{heroe.bio}}
         </p>

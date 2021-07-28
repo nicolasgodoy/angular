@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HeroesService } from '../../service/heroes.service';
 
@@ -8,6 +8,7 @@ import { HeroesService } from '../../service/heroes.service';
   templateUrl: './heroe.component.html',
   styles: [
   ]
+ 
 })
 export class HeroeComponent {
 
